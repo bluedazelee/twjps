@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judge Penalty System - Penalty Report</title>
+  <!-- 引入 Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- 引入 jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- 導航欄 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">JPS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="senior.html">判罰回報 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="senior_result.html">紀錄查詢</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="senior_time.html">加時查詢</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- 主要內容 -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScz-VTEbEJLkucaH9dLgCg24eLFHHY8WNfY7nNZ88AvA772QQ/viewform?embedded=true" width=100% height="700" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+<!-- 引入 Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script>
+$(document).ready(function() {
+  // 導航欄項目滑入效果
+  $('.nav-item').mouseenter(function() {
+    $(this).addClass('active');
+  });
+  $('.nav-item').mouseleave(function() {
+    $(this).removeClass('active');
+  });
+});
+</script>
+</body>
+</html>
